@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
   std::cout<<"Edge list E is "<<E.rows()<<"x"<<E.cols()<<std::endl;
   std::cout<<"Euler Characteristic: "<<Chi<<std::endl;
 
-  // Create a libigl Viewer object 
+  // Create a libigl Viewer object
   igl::opengl::glfw::Viewer viewer;
   // Set the vertices and faces for the viewer
   viewer.data().set_mesh(V, F);
